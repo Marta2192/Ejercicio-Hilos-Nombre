@@ -34,7 +34,15 @@ public class Principal {
 		nombre = sc.nextLine();
 	}
 	
+/*
+ * 1. Programa en el cual ingresaremos un nombre por teclado. Con este nombre el programa tendrá que:
+	- Devolver el número de caracteres. 
+	- Devolver el número de letras "a" que contiene, si no contiene que ponga 0.
+	- Tendrá que escribir el nombre al revés, por ejemplo, si escribimos Rico tiene que devolver Ocir. 
 
+El orden de salida de la información no importará.
+
+1.B. Mostrar la salida en el mismo orden que los puntos del enunciado. (Optativo)*/
 
 
 	
