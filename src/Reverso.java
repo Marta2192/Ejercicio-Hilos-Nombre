@@ -18,7 +18,6 @@ public class Reverso implements Runnable {
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		
 		StringBuilder stringBuilder = new StringBuilder(nombre);
 		// Y llamar al método reverse de StringBuilder (lo convertimos a cadena con toString)

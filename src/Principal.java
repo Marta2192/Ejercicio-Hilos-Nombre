@@ -10,9 +10,11 @@ public class Principal {
 		// TODO Auto-generated method stub
 		
 		introducirNombre();
+		
 		NumeroCaracteres numero = new NumeroCaracteres(nombre);
 		DevolverLetraA caracter = new DevolverLetraA(nombre);
 		Reverso reverso = new Reverso (nombre);
+		
 		Thread hilo1 = new Thread(numero, "hilo1");
 		Thread hilo2 = new Thread(caracter, "hilo2");
 		Thread hilo3 = new Thread(reverso, "hilo3");
